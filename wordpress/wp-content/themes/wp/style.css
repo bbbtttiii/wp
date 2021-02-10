@@ -4,3 +4,23 @@ Author: Ben
 Description: Sample Wordpress site
 Version: 1.0.0
 */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-cta {
+  margin-top: 30px;
+}
+
+.hero-cta .elementor-icon-box-wrapper {
+  position: relative;
+  top: -40px;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:before,
+.strong-view-wpmtst-modern .wpmtst-testimonial-content:after {
+  background: black !important;
+  color: black !important;
+}
